@@ -11,11 +11,11 @@ hero:
     alt: chpeagle7
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 安全咨询
+      link: /security_consulting
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于我
+      link: /about
 
 features:
   - title: 关于安全
