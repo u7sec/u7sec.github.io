@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { gen_nav, gen_sidebar } from './generate.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,29 +7,8 @@ export default defineConfig({
   description: "专注于软件安全领域研究",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Examples', items: [
-        {
-          text: 'api-examples',
-          link: '/api-examples'
-        },
-        {
-          text: 'markdown-examples',
-          link: '/markdown-examples'
-        }
-      ] }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    nav: gen_nav,
+    sidebar: gen_sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/u7sec' }
     ],
