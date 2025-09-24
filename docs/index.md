@@ -7,7 +7,7 @@ hero:
   text: "安全领域研究者"
   tagline: 专注于软件安全领域研究
   image:
-    src: /uq.png
+    src: /g7.png
     alt: chpeagle7
   actions:
     - theme: brand
