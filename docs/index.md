@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "我是七叔"
   text: "安全领域研究者"
-  tagline: 专注于软件安全领域研究
+  tagline: 专注于网络安全领域研究
   image:
     src: /g7.png
     alt: chpeagle7
